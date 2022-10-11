@@ -1,0 +1,29 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=.;Database=ProjectAuction;Trusted_Connection=True;MultipleActiveResultSets=true"
+  },
+  "EmailConfiguration": {
+    "Server": "smtp.gmail.com",
+    "Port": 587,
+    "SenderName": "Le Van Bon",
+    "SenderEmail": "",
+    "Password": ""
+  },
+  "Paypal": {
+    "ClientId": "",
+    "SecretKey": ""
+  },
+  "Twilio": {
+    "AccountSID": "",
+    "AuthToken": "",
+    "VerificationServiceSID": ""
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedHosts": "*"
+}

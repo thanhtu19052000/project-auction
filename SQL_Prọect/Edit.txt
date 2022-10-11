@@ -1,0 +1,29 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=.;Database=ProjectAuction;Trusted_Connection=True;MultipleActiveResultSets=true"
+  },
+  "EmailConfiguration": {
+    "Server": "smtp.gmail.com",
+    "Port": 587,
+    "SenderName": "Le Van Bon",
+    "SenderEmail": "bon150220000@gmail.com",
+    "Password": "maiyeuem123"
+  },
+  "Paypal": {
+    "ClientId": "AUbq5uK1BQmNYc4sHjIdG8HL5-KJdRS3LPg-mlG02GcahKFE5b6nQ9ehA0Bmxo-Ms3fZZMWnYq8WfR_J",
+    "SecretKey": "EEjD1TVC8E8fp3ayB6G0rupPHUo6lVMTTj9Ld2vYvvFVK5_dWv65Db2OlxvNheVtI4lzciIckCh42F6W"
+  },
+  "Twilio": {
+    "AccountSID": "AC1593d09a9696bea77464c1a0733ed4fc",
+    "AuthToken": "27d053d38619246b751a364bb690c2cd",
+    "VerificationServiceSID": "VAfea22a7ed02d4fa5ef1ab6876582daf4"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedHosts": "*"
+}
